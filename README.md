@@ -10,8 +10,6 @@ A Machine Learning based web application that detects phishing websites using UR
 - Responsive user interface
 - URL feature extraction
 
-## Tech Stack
-
 ### Frontend
 - HTML5
 - CSS3
