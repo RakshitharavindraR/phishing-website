@@ -1,0 +1,6 @@
+
+url,label
+https://google.com,safe
+http://fakebank-login.com,phishing
+https://github.com,safe
+http://verify-paypal-account.com,phishing

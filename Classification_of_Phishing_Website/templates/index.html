@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Website Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Classification of Phishing Website</h1>
+
+        <form action="/predict" method="POST">
+            <input type="text" name="url" placeholder="Enter URL" required>
+            <button type="submit">Predict</button>
+        </form>
+
+        {% if prediction %}
+        <div class="result">
+            <h2>{{ prediction }}</h2>
+            <p>{{ url }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
